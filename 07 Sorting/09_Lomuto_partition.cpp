@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-// lomuto partition does the partition of the array in O(n) time and O(n) auxiliary space
+// lomuto partition does the partition of the array in O(n) time and O(1) auxiliary space
+// it traverse the whole array only one time
 void lomuto_partition(int arr[], int low, int high)
 {
     int pivot = arr[high]; // always take last element as pivot element.
